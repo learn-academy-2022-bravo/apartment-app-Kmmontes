@@ -101,7 +101,8 @@ yarn add reactstrap
 Once you're able to clone the repository, within the root of the project directory, run:
 
 ```bash
-bundle 
+bundle -use bundle info (gemname)to see where a bundle gem is installed
+
 yarn
 rails db:setup
 ```
@@ -112,8 +113,9 @@ rails s
 ```
 
 See what is available already in the application.
-- What can a USER do? 
-- What views (pages, components) are available?
+- What can a USER do?
+** A user can see react with rails with devise, sign in page with a sign in form, a user can navigate to a sign up page with sign up form and a user can see hoem written on the front page
+
 
 ## 🏡 Apartment Resource
 The Devise User model is going to have an association with the Apartment model. In this situation, the User will have many apartments and the Apartments will belong to a User.
