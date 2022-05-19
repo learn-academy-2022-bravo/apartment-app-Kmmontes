@@ -4,9 +4,9 @@ class Footer extends Component {
   render() {
     return (
     <>
-      <h4>Footer</h4>
+      <h3>Kathy Apartment App</h3>
     </>
     )
   }
 }
-export default Footer
+export default Footer;
